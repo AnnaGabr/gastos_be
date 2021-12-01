@@ -6,3 +6,4 @@ from .models.cash import Cash
 # Register your models here.
 admin.site.register(Credit)
 admin.site.register(Debit)
+admin.site.register(Cash)

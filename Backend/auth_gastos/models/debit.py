@@ -12,3 +12,11 @@ class Debit(models.Model):
         ("C", "Casa")
     ))
     debit_Date = models.DateField()
+    debit_Type = models.TextField(choices = (
+        ("S", "Servicios o arriendo"),
+        ("A", "Ahorro"),
+        ("P", "Pago Tarjeta de Credito"),
+        ("M", "Mercado"),
+        ("T", "Transporte"),
+        ("O", "Otros")
+    ))

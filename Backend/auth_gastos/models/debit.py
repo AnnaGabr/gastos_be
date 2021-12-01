@@ -19,4 +19,4 @@ class Debit(models.Model):
         ("M", "Mercado"),
         ("T", "Transporte"),
         ("O", "Otros")
-    ))
+    ), default = ("O", "Otros"))

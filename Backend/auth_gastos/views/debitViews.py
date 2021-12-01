@@ -1,7 +1,9 @@
 from rest_framework import views, status
 from rest_framework.response import Response
+from auth_gastos.models.debit import Debit
+from auth_gastos.serializers.debitSerializer import DebitSerializer
 
-class DebitMainView(views.APIView):
+class DebitTestView(views.APIView):
     
     def get(self, request):
 
@@ -17,3 +19,11 @@ class DebitMainView(views.APIView):
         code = status.HTTP_201_CREATED
 
         return Response(status = code)
+
+class DebitMainView(views.APIView):
+
+    def get(self, request):
+
+        serialized = DebitSerializer(Debit.objects.all(), many = True)
+
+        return Response(serialized.data, status = status.HTTP_200_OK)

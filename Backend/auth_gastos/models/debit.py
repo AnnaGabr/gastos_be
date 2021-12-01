@@ -8,6 +8,7 @@ class Debit(models.Model):
         ("M", "Mamá"),
         ("S", "Sofia"),
         ("D", "Daniela"),
-        ("G", "Gabriela")
+        ("G", "Gabriela"),
+        ("C", "Casa")
     ))
     debit_Date = models.DateField()

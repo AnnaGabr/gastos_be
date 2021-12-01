@@ -8,7 +8,8 @@ class Credit(models.Model):
         ("M", "Mamá"),
         ("S", "Sofia"),
         ("D", "Daniela"),
-        ("G", "Gabriela")
+        ("G", "Gabriela"),
+        ("C", "Casa")
     ))
     cred_Installment = models.IntegerField()
     cred_Date = models.DateField()

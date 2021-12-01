@@ -15,7 +15,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from auth_gastos.views.debitViews import DebitMainView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('mainDebit/', DebitMainView.as_view())
 ]

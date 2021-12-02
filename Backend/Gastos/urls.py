@@ -15,9 +15,11 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from auth_gastos.views.debitViews import DebitMainView
+from auth_gastos.views.debitViews import DebitMainView, DebitListCreateView, DebitRetriveUpdateDeleteView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('mainDebit/', DebitMainView.as_view())
+    path('mainDebit/', DebitMainView.as_view()),
+    path('listCreateDebit/', DebitListCreateView.as_view()),
+    path('retrieveUpdateDeleteDebit/<int:pk>/', DebitRetriveUpdateDeleteView.as_view())
 ]

@@ -1,3 +1,6 @@
 env/
 Backend/Gastos/__pycache__/
 Backend/Gastos/Credentials.json
+Backend/auth_gastos/__pycache__/
+Backend/auth_gastos/migrations/
+Backend/auth_gastos/models/__pycache__/

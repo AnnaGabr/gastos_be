@@ -134,3 +134,7 @@ REST_FRAMEWORK = {
        'rest_framework.authentication.TokenAuthentication',
    )
 }
+
+# Para despliegue en Heroku
+import django_heroku
+django_heroku.settings(locals())

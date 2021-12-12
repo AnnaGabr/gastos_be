@@ -3,3 +3,5 @@ djangorestframework
 psycopg2
 gunicorn==20.1.0
 django-heroku==0.3.1
+pytz==2021.3
+django-cors-headers

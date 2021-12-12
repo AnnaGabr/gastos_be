@@ -7,3 +7,5 @@ auth_gastos/models/__pycache__/
 auth_gastos/serializers/__pycache__/
 auth_gastos/views/__pycache__/
 Credentials.json
+ecurity.SecurityMiddleware',
+sages.middleware.MessageMiddleware',

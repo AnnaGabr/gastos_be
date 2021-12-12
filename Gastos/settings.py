@@ -13,7 +13,7 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 from pathlib import Path
 import json
 
-jsonFile = open('Credentials.json')
+jsonFile = open('CredentialsHeroku.json')
 credentials = json.load(jsonFile)
 jsonFile.close()
 

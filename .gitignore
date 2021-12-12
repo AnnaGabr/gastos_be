@@ -1,11 +1,12 @@
 env/
 Gastos/__pycache__/
-Gastos/Credentials.json
+
 auth_gastos/__pycache__/
 auth_gastos/migrations/
 auth_gastos/models/__pycache__/
 auth_gastos/serializers/__pycache__/
 auth_gastos/views/__pycache__/
-Credentials.json
 ecurity.SecurityMiddleware',
 sages.middleware.MessageMiddleware',
+CredentialsHeroku.json
+Credentials.json
